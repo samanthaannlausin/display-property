@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AuroraX Wireless Headphones</title>
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+/* Reset */
+* { margin:0; padding:0; box-sizing:border-box; font-family:'Poppins', sans-serif; }
+
+body {
+    background:#0a0f2c; /* dark navy */
+    color:#e0e0e0;      /* light text */
+    line-height:1.6;
+}
+
+/* Header Section */
+header {
+    position: relative;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    overflow: hidden;
+}
+
+header .header-bg {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: url('header.png') center/cover no-repeat;
+    filter: brightness(0.3); /* darker overlay */
+    z-index: 0;
+}
+
+header .content {
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 3em;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+header button {
+    padding: 15px 30px;
+    font-size: 1em;
+    border: none;
+    border-radius: 30px;
+    background: #1f3a93; /* dark blue button */
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+header button:hover {
+    background: #0d1f5a; /* darker on hover */
+}
+
+/* Features Section */
+section#features {
+    padding:80px 20px;
+    text-align:center;
+    background: #0a0f2c; /* match body background */
+}
+
+section#features h2 {
+    font-size:2em;
+    margin-bottom:50px;
+    color:#1f3a93; /* dark blue heading */
+}
+
+.feature-cards {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:30px;
+}
+
+.feature-card {
+    background:#1a1f3c; /* dark card */
+    border-radius:15px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.6);
+    padding:30px 20px;
+    width:250px;
+    transition:0.3s;
+}
+
+.feature-card img {
+    width:80px;
+    margin-bottom:15px;
+}
+
+.feature-card h3 {
+    font-size:1.2em;
+    margin-bottom:10px;
+    color:#1f3a93; /* dark blue titles */
+}
+
+.feature-card p {
+    font-size:0.95em;
+    color:#e0e0e0;
+}
+
+/* Testimonials Section */
+section#testimonials {
+    background:#0d1f5a; /* dark navy */
+    color:white;
+    padding:80px 20px;
+    text-align:center;
+}
+
+section#testimonials h2 {
+    font-size:2em;
+    margin-bottom:50px;
+    color:#ffffff;
+}
+
+.testimonial-cards {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:30px;
+}
+
+.testimonial-card {
+    background:#1a1f3c; /* dark card */
+    color:#e0e0e0;
+    border-radius:15px;
+    padding:30px 20px;
+    width:250px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.6);
+    text-align:left;
+}
+
+.testimonial-card img {
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    margin-bottom:15px;
+}
+
+.testimonial-card p {
+    font-size:0.95em;
+    margin-bottom:15px;
+}
+
+.testimonial-card h4 {
+    font-weight:600;
+    color:#1f3a93; /* dark blue author name */
+}
+
+/* Footer */
+footer {
+    background:#0a0f2c;
+    text-align:center;
+    padding:20px;
+    font-size:0.9em;
+    color:#999;
+}
+
+/* Responsive */
+@media(max-width:900px){
+    .feature-cards, .testimonial-cards {
+        flex-direction:column;
+        align-items:center;
+    }
+
+    header h1 {
+        font-size:2.2em;
+    }
+
+    header p {
+        font-size:1em;
+    }
+}
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <div class="header-bg"></div> <!-- Background image container -->
+    <div class="content">
+        <h1>AuroraX Wireless Headphones</h1>
+        <p>Immerse yourself in studio-quality sound and advanced noise-cancellation for a truly premium listening experience.</p>
+        <button>Buy Now</button>
+    </div>
+</header>
+
+<!-- Features Section -->
+<section id="features">
+    <h2>Features</h2>
+    <div class="feature-cards">
+        <div class="feature-card">
+            <h3>Active Noise Cancellation</h3>
+            <p>Block out distractions and enjoy pure, uninterrupted audio.</p>
+        </div>
+        <div class="feature-card">
+            <h3>High-Fidelity Sound</h3>
+            <p>Deep bass, crisp mids, and clear treble for a true audiophile experience.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Wireless & Long Battery</h3>
+            <p>Up to 40 hours of playback on a single charge with fast USB-C charging.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Comfortable Design</h3>
+            <p>Memory foam ear cushions and adjustable headband for all-day comfort.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Smart Controls</h3>
+            <p>Touch controls and voice assistant integration for hands-free convenience.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials Section -->
+<section id="testimonials">
+    <h2>What Our Customers Say</h2>
+    <div class="testimonial-cards">
+        <div class="testimonial-card">
+            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Liam R.">
+            <p>"The noise cancellation is incredible! I can finally focus on work without distractions."</p>
+            <h4>- Liam R.</h4>
+        </div>
+        <div class="testimonial-card">
+            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sophie K.">
+            <p>"The sound quality is studio-level. Every song feels alive and detailed."</p>
+            <h4>- Sophie K.</h4>
+        </div>
+        <div class="testimonial-card">
+            <img src="https://randomuser.me/api/portraits/men/65.jpg" alt="Ethan M.">
+            <p>"AuroraX headphones are so comfortable, I can wear them all day without fatigue."</p>
+            <h4>- Ethan M.</h4>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    &copy; 2026 AuroraX Inc. All rights reserved.
+</footer>
+
+</body>
+</html>
